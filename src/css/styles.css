@@ -36,7 +36,6 @@ h1 {
   font: inherit;
   padding: 8px;
   width: 100%;
-  background-color: #ffffff99;
 }
 
 .country-search {
@@ -49,6 +48,13 @@ h1 {
   background-color: #9ad4e5cc;
 }
 
+.country-search__input,
+.country-info__item,
+.country-info__header,
+.country-list__item{
+  background-color: #ffffff99;
+}
+
 .country-list {
   display: flex;
   flex-direction: column;
@@ -59,7 +65,6 @@ h1 {
 display: flex;
 align-items: center;
 gap: 10px;
-background-color: #ffffff99;
 }
 
 .country-list__item:first-child {
